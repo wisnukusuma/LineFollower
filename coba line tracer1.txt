@@ -1,0 +1,114 @@
+switch(posisi)
+            {
+            case -9:
+            belok_kanan();
+            kec_kiri=40;
+            kec_kanan=40;
+            break;
+            
+            case -7 :
+            belok_kanan();
+            kec_kiri=75;
+            kec_kanan=10;
+            break; 
+            
+            case -6 :
+            maju();
+            kec_kiri=75;
+            kec_kanan=10;
+            break;
+            
+            case -5 :
+            maju();
+            kec_kiri=100;
+            kec_kanan=15;
+            break;
+            
+            case -4 :
+            maju();
+            kec_kiri=100;
+            kec_kanan=30;
+            break;
+            
+            case -3 :
+            maju();
+            kec_kiri=100;
+            kec_kanan=30;
+            break;
+            
+            case -2 :
+            maju();
+            kec_kiri=100;
+            kec_kanan=50;
+            break;
+            
+            case -1 :
+            maju();
+            kec_kiri=100;
+            kec_kanan=80;
+            break;  
+            
+            case 0 :
+            maju();
+            kec_kiri=20;
+            kec_kanan=20;
+            break; 
+            
+            case 1 :
+            maju();
+            kec_kiri=80;
+            kec_kanan=100;
+            break;
+            
+            case 2 :
+            maju();
+            kec_kiri=50;
+            kec_kanan=100;
+            break;
+            
+            case 3 :
+            maju();
+            kec_kiri=40;
+            kec_kanan=100;
+            break;
+            
+            case 4 :
+            maju();
+            kec_kiri=30;
+            kec_kanan=100;
+            break; 
+            
+            case 5 :
+            maju();
+            kec_kiri=30;
+            kec_kanan=100;
+            break;
+            
+            case 6 :
+            maju();
+            kec_kiri=10;
+            kec_kanan=75;
+            break;
+            
+            case 7 :
+            belok_kiri();
+            kec_kiri=10;
+            kec_kanan=75;
+            break; 
+            
+            case 9 :
+            belok_kiri();
+            kec_kiri=40;
+            kec_kanan=40;
+            break;
+            
+            case 10:
+            mundur();
+            kec_kiri=50;
+            kec_kanan=50;
+            break;  
+            
+            lcd_clear();  
+            
+           
+      }
